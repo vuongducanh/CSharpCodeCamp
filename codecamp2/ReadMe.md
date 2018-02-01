@@ -24,7 +24,8 @@ Một đối tượng của lớp Course có thể có nhiều Student và Teach
 
 UProgram sẽ có thể lưu nhiều degrees và degree có nhiều courses. Sử dụng diagram dưới đây để hiểu quan hệ giữa các lớp:
 
-
+<img src="file:///home/ducanh/Desktop/uprogram-class-diagram.png
+">
 
 Class diagram thể hiện các lớp Program, Degree, Course, Student, và Teacher theo tầng khi UProgram ở trên cùng lớn nhất sẽ bao gồm nhiều Degree và Degree thì gồm nhiều Course, trong Course thì lại có thể lưu nhiều Student và Teacher
 
