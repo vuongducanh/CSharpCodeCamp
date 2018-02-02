@@ -21,7 +21,7 @@ D. Giá trị của biến grade
 ### Câu 3. Mảng trong C# bắt đầu bằng index __
 A. 1  
 B. -1  
-C. 0     
+(C). 0     
 D. Không đáp án nào đúng
 
 ### Câu 4. Điều nào dưới đây là đúng?
@@ -34,13 +34,13 @@ D. Đoạn code `finally` có thể trả về kết quả với `return`
 A. class Dog extends Animal {...}  
 B. class Dog inherits Animal {...}  
 C. class Dog => Animal {...}  
-D. class Dog : Animal {...}    
+(D). class Dog : Animal {...}    
 
 ### Câu 6. Trong lớp Animal, đâu là hàm khởi tạo hay constructor 
 A. public constructor Animal () {}  
 B. public Animal {}  
 C. public Animal () {}    
-D. static void Animal () {}  
+(D). static void Animal () {}  
 
 ### Câu 7. Đoạn code dưới đây trả về kết quả gì
 ```cs
@@ -80,7 +80,7 @@ C.
 ```cs
 Console.WriteLine(FileInfo.CreationTime(@"C:\Users\Admin\Desktop\myDoc.txt"));
 ```
-D.
+(D).
 ```cs
 FileInfo myDoc = new FileInfo(@"C:\Users\Admin\Desktop\myDoc.txt");
 Console.WriteLine(myDoc.Create());
@@ -96,7 +96,7 @@ foreach (var item in a){
 }
 ```
 A. 100 7 23 9 0  
-B. 100 4 0    
+(B). 100 4 0    
 C. 7 23 9  
 D. 100 7 4 0 
 
@@ -110,7 +110,7 @@ string[] colors = { "green", "brown", "blue", "red" };
 ```cs
 colors.Max (c => c.Length)
 ```
-A. 5  
+(A). 5  
 B. green    
 C. brown  
 D. Ném ra lỗi
@@ -120,7 +120,7 @@ D. Ném ra lỗi
 var query = from c in colors where c.Length > 3 orderby c.Length select c;
 ```
 A. int  
-B. string    
+(B). string    
 C. IEnumerable<string>    
 D. IQueryable<string>  
 
@@ -131,7 +131,7 @@ var query = from c in colors where c.Length == colors.Max (c2 => c2.Length) sele
 foreach (var element in query)
   Console.WriteLine (element);
 ```
-A. green brown    
+(A). green brown    
 B. 5 5    
 C. Lỗi biên dịch (compile-time error)    
 D. Ném ra ngoại lệ (throw exception)
@@ -142,14 +142,14 @@ var query = colors.Where (c => c.Contains ("e")).Where (c => c.Contains ("n"));
 
 Console.WriteLine (query.Count());
 ```
-A. 1    
+(A). 1    
 B. 2    
 C. 3    
 D. 4
 
 ### Câu 14. Khi kế thừa, lớp con trong cùng 1 assembly có thể kế thừa những thành viên nào của lớp cha
 A. static, public, private  
-B. public, protected, internal   
+(B). public, protected, internal   
 C. private, public, internal  
 D. static, private, internal  
 
@@ -160,7 +160,7 @@ double whatsThis = doubles.FirstOrDefault(val => val > 2.3);
 ```
 A. Giá trị mặc định cho double là `0.0d`  
 B. 2.2  
-C. Không gì cả. FirstOrDefault sẽ ném ra ngoại lệ  
+(C). Không gì cả. FirstOrDefault sẽ ném ra ngoại lệ  
 D. 2.3
 
 ### Câu 16. Biến result sẽ gồm những số nào?
@@ -170,7 +170,7 @@ List<int> filter = new List<int> { 1, 1, 2, 3, 5, 8 };
 // Will contain { 1, 2, 8 }
 IEnumerable<int> result = ints.Intersect(filter);
 ```
-A. 1 2 8  
+(A). 1 2 8  
 B. 1 2 3  
 C. 1 1 2 2 8   
 D. 1 2 4 8
