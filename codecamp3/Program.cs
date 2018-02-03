@@ -1,12 +1,17 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace codecamp3
 {
     class Program
     {
-        static void Main(string[] args)
+         public void bai1()
         {
-            Console.WriteLine("Hello World!");
+            // string[] cities = { "ROME","ZURICH","AMSTERDAM","SAIGON", "LONDON","HANOI","CALIFORNIA", "PARIS" };
+            System.Console.WriteLine("asdfrgv");
+        }
+          static void Main(string[] args)
+        {
+           bai1();
         }
     }
 }
