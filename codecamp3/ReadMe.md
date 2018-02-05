@@ -119,8 +119,8 @@ D. Ném ra lỗi
 var query = from c in colors where c.Length > 3 orderby c.Length select c;
 ```
 A. int  
-(B). string    
-C. IEnumerable<string>    
+B. string    
+(C). IEnumerable<string>    
 D. IQueryable<string>  
 
 ### Câu 12. Đoạn code dưới đây trả về kết quả gì?
@@ -151,15 +151,17 @@ A. static, public, private
 (B). public, protected, internal   
 C. private, public, internal  
 D. static, private, internal  
-
+internal:chi trong cung namespace;
+protected:chi trong calss va class ke thua no
+private:chi trong mot class
 ### Câu 15. Đoạn code dưới đây trả về kết quả gì?
 ```cs
 List<double> doubles = new List<double> { 2.0, 2.1, 2.2, 2.3 };
 double whatsThis = doubles.FirstOrDefault(val => val > 2.3);
 ```
-A. Giá trị mặc định cho double là `0.0d`  
+(A). Giá trị mặc định cho double là `0.0d`  
 B. 2.2  
-(C). Không gì cả. FirstOrDefault sẽ ném ra ngoại lệ  
+C. Không gì cả. FirstOrDefault sẽ ném ra ngoại lệ  
 D. 2.3
 
 ### Câu 16. Biến result sẽ gồm những số nào?
