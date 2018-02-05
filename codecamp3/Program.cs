@@ -30,20 +30,30 @@ namespace codecamp3
             }
             return false;
         }
-        static string bai3(string[] arr)
+        static string bai3(string[] words)
         {
-            
+           var num = from s in words where s.Contains("e") || s.Contains("E") orderby s  select s;
+           if(num == null)
+           {
+               System.Console.WriteLine("null");
+           }
+           else
+           {
+               System.Console.Write("the last word is ",num.Last());
+           }
+           return num.Last();
         }
           static void Main(string[] args)
         {
         //    bai1();
-         
-         int[] arr1 = new int[]{1,2,3,4};
-         int[] arr2 = new int[]{1,4,9,16};
-         bool kq = bai2(arr1,arr2);
-         System.Console.WriteLine(kq);
+        
+        //bai2;
+        //  int[] arr1 = new int[]{1,2,3,4};
+        //  int[] arr2 = new int[]{1,4,9,16};
+        //  bool kq = bai2(arr1,arr2);
+        //  System.Console.WriteLine(kq);
 
-        string[] arrstring = new string[]{"anh","em","ai","day"};
+        string[] arrstring = new string[]{"anh","m","ai","w","a"};
         string kq2 = bai3(arrstring);
         System.Console.WriteLine(kq2); 
 
