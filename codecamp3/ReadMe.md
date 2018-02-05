@@ -65,7 +65,7 @@ B. Code chạy thành công và in `CSharp` ra console
 D. Không có đáp án nào ở trên đúng
 
 ### Câu 8. Có 1 file `myDoc.txt`, làm sao để đọc thời gian file này được tạo trong C#
-A.    
+(A).    
 ```cs
 FileInfo myDoc = new FileInfo(@"C:\Users\Admin\Desktop\myDoc.txt");
 Console.WriteLine(myDoc.CreationTime);
@@ -79,7 +79,7 @@ C.
 ```cs
 Console.WriteLine(FileInfo.CreationTime(@"C:\Users\Admin\Desktop\myDoc.txt"));
 ```
-(D).
+D.
 ```cs
 FileInfo myDoc = new FileInfo(@"C:\Users\Admin\Desktop\myDoc.txt");
 Console.WriteLine(myDoc.Create());
@@ -95,7 +95,7 @@ foreach (var item in a){
 }
 ```
 A. 100 7 23 9 0  
-(B). 100 4 0    
+B. 100 4 0    
 C. 7 23 9  
 D. 100 7 4 0 
 
