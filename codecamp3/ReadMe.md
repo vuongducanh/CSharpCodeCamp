@@ -24,10 +24,10 @@ B. -1
 D. Không đáp án nào đúng
 
 ### Câu 4. Điều nào dưới đây là đúng?
-A. Đoạn code trong `finally` được thực hiện trong mọi trường hợp     
+(A). Đoạn code trong `finally` được thực hiện trong mọi trường hợp     
 B. Có thể có nhiều đoạn code `finally` theo sau `try/ catch`  
 C. Đoạn code `finally` có thể nằm trước đoạn `catch`  
-(D). Đoạn code `finally` có thể trả về kết quả với `return` 
+D. Đoạn code `finally` có thể trả về kết quả với `return` 
 
 ### Câu 5. Cách để lớp `Dog` kế thừa từ lớp `Animal`
 A. class Dog extends Animal {...}  
