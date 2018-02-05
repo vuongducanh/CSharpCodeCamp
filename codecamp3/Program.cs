@@ -30,10 +30,10 @@ namespace codecamp3
             }
             return false;
         }
-        static string bai3(string[] words)
+        static string bai3(List<string> words)
         {
            var num = from s in words where s.Contains("e") || s.Contains("E") orderby s  select s;
-           if(num == null)
+           if(num.Count()==0)
            {
                System.Console.WriteLine("null");
            }
@@ -45,7 +45,8 @@ namespace codecamp3
         }
           static void Main(string[] args)
         {
-        //    bai1();
+            try{
+                //    bai1();
         
         //bai2;
         //  int[] arr1 = new int[]{1,2,3,4};
@@ -53,11 +54,14 @@ namespace codecamp3
         //  bool kq = bai2(arr1,arr2);
         //  System.Console.WriteLine(kq);
 
-        string[] arrstring = new string[]{"anh","m","ai","w","a"};
-        string kq2 = bai3(arrstring);
-        System.Console.WriteLine(kq2); 
-
-         
+            List<string> arrstring = new List<string>(){"anh","m","th","w"};
+            string kq2 = bai3(arrstring);
+            System.Console.WriteLine(kq2); 
+            }
+            catch(Exception)
+            {
+                    System.Console.WriteLine("the end");
+            }
         }
     }
 }
