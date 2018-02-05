@@ -27,7 +27,7 @@ D. Không đáp án nào đúng
 A. Đoạn code trong `finally` được thực hiện trong mọi trường hợp     
 B. Có thể có nhiều đoạn code `finally` theo sau `try/ catch`  
 C. Đoạn code `finally` có thể nằm trước đoạn `catch`  
-D. Đoạn code `finally` có thể trả về kết quả với `return` 
+(D). Đoạn code `finally` có thể trả về kết quả với `return` 
 
 ### Câu 5. Cách để lớp `Dog` kế thừa từ lớp `Animal`
 A. class Dog extends Animal {...}  
@@ -61,7 +61,7 @@ C. public Animal () {}
 ```
 A. Code chạy thành công, không in gì ra console hết  
 B. Code chạy thành công và in `CSharp` ra console  
-C. Gặp lỗi vì biến t    
+(C). Gặp lỗi vì biến t    
 D. Không có đáp án nào ở trên đúng
 
 ### Câu 8. Có 1 file `myDoc.txt`, làm sao để đọc thời gian file này được tạo trong C#
