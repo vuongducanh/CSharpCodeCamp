@@ -38,8 +38,8 @@ C. class Dog => Animal {...}
 ### Câu 6. Trong lớp Animal, đâu là hàm khởi tạo hay constructor 
 A. public constructor Animal () {}  
 B. public Animal {}  
-C. public Animal () {}    
-(D). static void Animal () {}  
+(C). public Animal () {}    
+D. static void Animal () {}  
 
 ### Câu 7. Đoạn code dưới đây trả về kết quả gì
 ```cs
