@@ -3,7 +3,7 @@
 ## Quiz:
 ### Câu 1: Lớp trong C# có thể kế thừa nhiều __
 A. Class  
-B. Interface  
+(B). Interface  
 C. Abstract class  
 D. Static class
 

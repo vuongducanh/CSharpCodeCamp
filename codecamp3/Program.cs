@@ -54,7 +54,7 @@ namespace codecamp3
         //  bool kq = bai2(arr1,arr2);
         //  System.Console.WriteLine(kq);
 
-            List<string> arrstring = new List<string>(){"anh","m","th","w"};
+            List<string> arrstring = new List<string>(){"hieu","em","anh","con","phep","tet"};
             string kq2 = bai3(arrstring);
             System.Console.WriteLine(kq2); 
             }
