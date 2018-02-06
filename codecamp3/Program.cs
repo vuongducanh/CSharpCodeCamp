@@ -4,9 +4,9 @@ using System.Linq;
 namespace codecamp3 {
     class Program {
         static void bai1 () {
-            string[] cities = { "ROME", "ZURICH", "AMSTERDAM", "SAIGON", "LONDON", "HANOI", "CALIFORNIA", "PARIS" };
+            string[] cities = { "ROME", "ZURICH", "AMSTERDAM", "SAIGON", "LONDON", "HANOI", "CALIFORNIA", "Anh" };
             IEnumerable<string> query = from word in cities
-            orderby word.Length, word.Substring (0, 1) descending
+            orderby word.Length
             select word; // orderby word.Length không khai báo gì cả thì mặc định là ascending (sắp tăng)
             foreach (string str in query)
                 Console.WriteLine (str);
